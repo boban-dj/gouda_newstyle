@@ -11,17 +11,40 @@ Dependencies:
 
 * markdown
 
-* perl
+* perl (install with perlbrew the version you want)
 
 * used perlmodules:
-		use Modern::Perl;
-		use autodie qw/:all/;
-		use File::Slurp;
-		use List::Compare;
 
-Usage: make 3 or more .md files in a folder
+		`Modern::Perl;`
+		`IPC::System::Simple;`
+		`File::Slurp;`
+		`List::Compare;`
 
-Every file must start with a first line like so: % First line
+
+To install those Perl modules:
+
+either use a tool like cpanm, or use your OS’s package management tools.
+For Example, on a Debian-based distribution, you can apt-get install those prereqs
+(they are `libmodern-perl-perl` `libfile-slurp-unicode-perl` `liblist-compare-perl` `libipc-system-simple-perl`)
+
+You’ll also need `Pandoc`. Instructions for installing `Pandoc` are on its website.
+For Debian-based GNU/Linux distributions, it’s: `sudo apt-get install pandoc`
+
+To install Gouda itself, just save the `gouda.pl` file to somewhere in your `$PATH` 
+(such as `~/bin` or `/usr/local/bin`) and make sure it’s executable (chmod +x gouda.pl), or run from folder.
+
+* Usage: make 3 or more .md files in a folder
+
+* Every file must start with a first line like so: % First line
+
+* Also make index.md file, first 3 lines:
+
+`% Home`
+`% author_name`
+`% 2015-07-14`
+		
+
+
 All other important things the gouda.pl script will ask for, if you need it.
 
 It generates style.css, toc.conf (table of content)
