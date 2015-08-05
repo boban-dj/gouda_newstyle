@@ -9,7 +9,7 @@ Dependencies:
 
 * **Pandoc** 
 
-* **Markdown
+* **Markdown**
 
 * **Perl** (install with perlbrew the version you want)
 
