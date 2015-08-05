@@ -2,18 +2,18 @@
 
 This is a static html generator from markdown.
 `chmod 755 gouda.pl`
-In folder with .md files, call like this : ./gouda.pl
+In folder with .md files, call like this : `./gouda.pl`
 
 
 Dependencies:
 
-* pandoc 
+* **Pandoc** 
 
-* markdown
+* **Markdown
 
-* perl (install with perlbrew the version you want)
+* **Perl** (install with perlbrew the version you want)
 
-* used perlmodules:
+* **used perlmodules**
 
 		Modern::Perl;
 		IPC::System::Simple;
@@ -31,11 +31,11 @@ You’ll also need `Pandoc`. Instructions for installing `Pandoc` are on its web
 For Debian-based GNU/Linux distributions, it’s: `sudo apt-get install pandoc`
 
 To install Gouda itself, just save the `gouda.pl` file to somewhere in your `$PATH` 
-(such as `~/bin` or `/usr/local/bin`) and make sure it’s executable (chmod +x gouda.pl), or run from folder.
+(such as `~/bin` or `/usr/local/bin`) and make sure it’s executable (`chmod +x gouda.pl`), or run from folder.
 
 * Usage: make 3 or more .md files in a folder
 
-* Every file must start with a first line like so: % First line
+* Every file must start with a first line like so: `% First line header`
 
 * Also make index.md file, first 3 lines:
 
@@ -46,7 +46,7 @@ To install Gouda itself, just save the `gouda.pl` file to somewhere in your `$PA
 
 All other important things the gouda.pl script will ask for, if you need it.
 
-It generates style.css, toc.conf (table of content)
+It generates style.css, toc.conf (table of content) and all html files with toc.
 
 ***UPDATED***
 - Added mobile navigation menu with toc support.
