@@ -15,10 +15,10 @@ Dependencies:
 
 * used perlmodules:
 
-		`Modern::Perl;`
-		`IPC::System::Simple;`
-		`File::Slurp;`
-		`List::Compare;`
+		Modern::Perl;
+		IPC::System::Simple;
+		File::Slurp;
+		List::Compare;
 
 
 To install those Perl modules:
@@ -39,16 +39,15 @@ To install Gouda itself, just save the `gouda.pl` file to somewhere in your `$PA
 
 * Also make index.md file, first 3 lines:
 
-`% Home`
-`% author_name`
-`% 2015-07-14`
+`% Home`<br>
+`% author_name`<br>
+`% 2015-07-14`<br>
 		
-
 
 All other important things the gouda.pl script will ask for, if you need it.
 
 It generates style.css, toc.conf (table of content)
 
+***UPDATED***
 - Added mobile navigation menu with toc support.
 - replaced the pandoc <!DOCTYPE> declaration for html5 with perl oneliners in script gouda.pl
-
