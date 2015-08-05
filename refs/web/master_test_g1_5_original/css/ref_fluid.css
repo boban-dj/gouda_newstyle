@@ -1,0 +1,716 @@
+/* 
+========================
+  GRIDINATOR CSS v0.3
+  http://gridinator.com/
+  
+  GRIDINATOR CSS is a very basic framework to create
+  grid-based layouts. The content of this file is 
+  provided as-is, without support.
+  
+  If you would like to contact GRIDINATOR to suggest
+  improvements, to ask for help or to file a bug report, 
+  please feel free to email: gridinator@steff.me
+  
+  Your grid settings:
+  	columns: 16
+  	column width: 50px
+  	column margin: 10px
+  	container margin: 10px
+    
+=========================
+*/
+* { /* quick reset */
+	margin: 0;	
+}
+
+body { 
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+background:coral;
+}
+
+
+.wrapper {
+	margin: 0 auto; /* This centers the grid. Remove this line to place the grid on the left of the page. */
+	text-align: left;
+	width: 75.625em;
+background:lightyellow;
+}
+
+.inner-wrapper {
+	clear: both;
+	display: inline;/* IE double margin fix. Feel free to move this to your IE specific stylesheets. */
+	float: left;
+	padding: 0 10px 0 10px;
+	position: relative;
+	width: 74.375em;
+}
+
+
+.container {
+	clear: both;
+	float: left;
+	margin: 0;
+	width: 100%;	
+}
+
+.one-col, .two-col, .three-col, .four-col, .five-col, .six-col, .seven-col, .eight-col, .nine-col, .ten-col, .eleven-col, .twelve-col, .thirteen-col, .fourteen-col, .fifteen-col, .sixteen-col {
+	clear: none;
+	display: inline;
+	float: left;
+	margin-bottom: 10px;
+	margin-right:1.053%;
+	overflow:hidden;
+	padding: 0;
+	position: relative;
+}
+ .one-col {
+	width: 5.263%;
+}
+.two-col {
+	width: 11.578%;
+}
+.three-col {
+	width: 17.894%;
+}
+.four-col {
+	width: 24.21%;
+}
+.five-col {
+	width: 30.526%;
+}
+.six-col {
+	width: 36.842%;
+}
+.seven-col {
+	width: 43.157%;
+}
+.eight-col {
+	width: 49.473%;
+}
+.nine-col {
+	width: 55.789%;
+}
+.ten-col {
+	width: 62.105%;
+}
+.eleven-col {
+	width: 68.421%;
+}
+.twelve-col {
+	width: 74.736%;
+}
+.thirteen-col {
+	width: 81.052%;
+}
+.fourteen-col {
+	width: 87.368%;
+}
+.fifteen-col {
+	width: 93.684%;
+}
+.sixteen-col {
+	width: 100%;
+	margin-right: 0;
+}
+ .sixteen-col .one-col {
+	width: 5.263%;
+	margin-right: 1.052%;
+}
+.sixteen-col .two-col {
+	width: 11.578%;
+	margin-right: 1.052%;
+}
+.sixteen-col .three-col {
+	width: 17.894%;
+	margin-right: 1.052%;
+}
+.sixteen-col .four-col {
+	width: 24.21%;
+	margin-right: 1.052%;
+}
+.sixteen-col .five-col {
+	width: 30.526%;
+	margin-right: 1.052%;
+}
+.sixteen-col .six-col {
+	width: 36.842%;
+	margin-right: 1.052%;
+}
+.sixteen-col .seven-col {
+	width: 43.157%;
+	margin-right: 1.052%;
+}
+.sixteen-col .eight-col {
+	width: 49.473%;
+	margin-right: 1.052%;
+}
+.sixteen-col .nine-col {
+	width: 55.789%;
+	margin-right: 1.052%;
+}
+.sixteen-col .ten-col {
+	width: 62.105%;
+	margin-right: 1.052%;
+}
+.sixteen-col .eleven-col {
+	width: 68.421%;
+	margin-right: 1.052%;
+}
+.sixteen-col .twelve-col {
+	width: 74.736%;
+	margin-right: 1.052%;
+}
+.sixteen-col .thirteen-col {
+	width: 81.052%;
+	margin-right: 1.052%;
+}
+.sixteen-col .fourteen-col {
+	width: 87.368%;
+	margin-right: 1.052%;
+}
+.sixteen-col .fifteen-col {
+	width: 93.684%;
+	margin-right: 1.052%;
+}
+.sixteen-col .sixteen-col {
+	width: 100%;
+	margin-right: 0;
+}
+.fifteen-col .one-col {
+	width: 5.617%;
+	margin-right: 1.123%;
+}
+.fifteen-col .two-col {
+	width: 12.359%;
+	margin-right: 1.123%;
+}
+.fifteen-col .three-col {
+	width: 19.101%;
+	margin-right: 1.123%;
+}
+.fifteen-col .four-col {
+	width: 25.842%;
+	margin-right: 1.123%;
+}
+.fifteen-col .five-col {
+	width: 32.584%;
+	margin-right: 1.123%;
+}
+.fifteen-col .six-col {
+	width: 39.325%;
+	margin-right: 1.123%;
+}
+.fifteen-col .seven-col {
+	width: 46.067%;
+	margin-right: 1.123%;
+}
+.fifteen-col .eight-col {
+	width: 52.808%;
+	margin-right: 1.123%;
+}
+.fifteen-col .nine-col {
+	width: 59.55%;
+	margin-right: 1.123%;
+}
+.fifteen-col .ten-col {
+	width: 66.292%;
+	margin-right: 1.123%;
+}
+.fifteen-col .eleven-col {
+	width: 73.033%;
+	margin-right: 1.123%;
+}
+.fifteen-col .twelve-col {
+	width: 79.775%;
+	margin-right: 1.123%;
+}
+.fifteen-col .thirteen-col {
+	width: 86.516%;
+	margin-right: 1.123%;
+}
+.fifteen-col .fourteen-col {
+	width: 93.258%;
+	margin-right: 1.123%;
+}
+.fifteen-col .fifteen-col {
+	width: 100%;
+	margin-right: 0;
+}
+.fourteen-col .one-col {
+	width: 6.024%;
+	margin-right: 1.204%;
+}
+.fourteen-col .two-col {
+	width: 13.253%;
+	margin-right: 1.204%;
+}
+.fourteen-col .three-col {
+	width: 20.481%;
+	margin-right: 1.204%;
+}
+.fourteen-col .four-col {
+	width: 27.71%;
+	margin-right: 1.204%;
+}
+.fourteen-col .five-col {
+	width: 34.939%;
+	margin-right: 1.204%;
+}
+.fourteen-col .six-col {
+	width: 42.168%;
+	margin-right: 1.204%;
+}
+.fourteen-col .seven-col {
+	width: 49.397%;
+	margin-right: 1.204%;
+}
+.fourteen-col .eight-col {
+	width: 56.626%;
+	margin-right: 1.204%;
+}
+.fourteen-col .nine-col {
+	width: 63.855%;
+	margin-right: 1.204%;
+}
+.fourteen-col .ten-col {
+	width: 71.084%;
+	margin-right: 1.204%;
+}
+.fourteen-col .eleven-col {
+	width: 78.313%;
+	margin-right: 1.204%;
+}
+.fourteen-col .twelve-col {
+	width: 85.542%;
+	margin-right: 1.204%;
+}
+.fourteen-col .thirteen-col {
+	width: 92.771%;
+	margin-right: 1.204%;
+}
+.fourteen-col .fourteen-col {
+	width: 100%;
+	margin-right: 0;
+}
+.thirteen-col .one-col {
+	width: 6.493%;
+	margin-right: 1.298%;
+}
+.thirteen-col .two-col {
+	width: 14.285%;
+	margin-right: 1.298%;
+}
+.thirteen-col .three-col {
+	width: 22.077%;
+	margin-right: 1.298%;
+}
+.thirteen-col .four-col {
+	width: 29.87%;
+	margin-right: 1.298%;
+}
+.thirteen-col .five-col {
+	width: 37.662%;
+	margin-right: 1.298%;
+}
+.thirteen-col .six-col {
+	width: 45.454%;
+	margin-right: 1.298%;
+}
+.thirteen-col .seven-col {
+	width: 53.246%;
+	margin-right: 1.298%;
+}
+.thirteen-col .eight-col {
+	width: 61.038%;
+	margin-right: 1.298%;
+}
+.thirteen-col .nine-col {
+	width: 68.831%;
+	margin-right: 1.298%;
+}
+.thirteen-col .ten-col {
+	width: 76.623%;
+	margin-right: 1.298%;
+}
+.thirteen-col .eleven-col {
+	width: 84.415%;
+	margin-right: 1.298%;
+}
+.thirteen-col .twelve-col {
+	width: 92.207%;
+	margin-right: 1.298%;
+}
+.thirteen-col .thirteen-col {
+	width: 100%;
+	margin-right: 0;
+}
+.twelve-col .one-col {
+	width: 7.042%;
+	margin-right: 1.408%;
+}
+.twelve-col .two-col {
+	width: 15.492%;
+	margin-right: 1.408%;
+}
+.twelve-col .three-col {
+	width: 23.943%;
+	margin-right: 1.408%;
+}
+.twelve-col .four-col {
+	width: 32.394%;
+	margin-right: 1.408%;
+}
+.twelve-col .five-col {
+	width: 40.845%;
+	margin-right: 1.408%;
+}
+.twelve-col .six-col {
+	width: 49.295%;
+	margin-right: 1.408%;
+}
+.twelve-col .seven-col {
+	width: 57.746%;
+	margin-right: 1.408%;
+}
+.twelve-col .eight-col {
+	width: 66.197%;
+	margin-right: 1.408%;
+}
+.twelve-col .nine-col {
+	width: 74.647%;
+	margin-right: 1.408%;
+}
+.twelve-col .ten-col {
+	width: 83.098%;
+	margin-right: 1.408%;
+}
+.twelve-col .eleven-col {
+	width: 91.549%;
+	margin-right: 1.408%;
+}
+.twelve-col .twelve-col {
+	width: 100%;
+	margin-right: 0;
+}
+.eleven-col .one-col {
+	width: 7.692%;
+	margin-right: 1.538%;
+}
+.eleven-col .two-col {
+	width: 16.923%;
+	margin-right: 1.538%;
+}
+.eleven-col .three-col {
+	width: 26.153%;
+	margin-right: 1.538%;
+}
+.eleven-col .four-col {
+	width: 35.384%;
+	margin-right: 1.538%;
+}
+.eleven-col .five-col {
+	width: 44.615%;
+	margin-right: 1.538%;
+}
+.eleven-col .six-col {
+	width: 53.846%;
+	margin-right: 1.538%;
+}
+.eleven-col .seven-col {
+	width: 63.076%;
+	margin-right: 1.538%;
+}
+.eleven-col .eight-col {
+	width: 72.307%;
+	margin-right: 1.538%;
+}
+.eleven-col .nine-col {
+	width: 81.538%;
+	margin-right: 1.538%;
+}
+.eleven-col .ten-col {
+	width: 90.769%;
+	margin-right: 1.538%;
+}
+.eleven-col .eleven-col {
+	width: 100%;
+	margin-right: 0;
+}
+.ten-col .one-col {
+	width: 8.474%;
+	margin-right: 1.694%;
+}
+.ten-col .two-col {
+	width: 18.644%;
+	margin-right: 1.694%;
+}
+.ten-col .three-col {
+	width: 28.813%;
+	margin-right: 1.694%;
+}
+.ten-col .four-col {
+	width: 38.983%;
+	margin-right: 1.694%;
+}
+.ten-col .five-col {
+	width: 49.152%;
+	margin-right: 1.694%;
+}
+.ten-col .six-col {
+	width: 59.322%;
+	margin-right: 1.694%;
+}
+.ten-col .seven-col {
+	width: 69.491%;
+	margin-right: 1.694%;
+}
+.ten-col .eight-col {
+	width: 79.661%;
+	margin-right: 1.694%;
+}
+.ten-col .nine-col {
+	width: 89.83%;
+	margin-right: 1.694%;
+}
+.ten-col .ten-col {
+	width: 100%;
+	margin-right: 0;
+}
+.nine-col .one-col {
+	width: 9.433%;
+	margin-right: 1.886%;
+}
+.nine-col .two-col {
+	width: 20.754%;
+	margin-right: 1.886%;
+}
+.nine-col .three-col {
+	width: 32.075%;
+	margin-right: 1.886%;
+}
+.nine-col .four-col {
+	width: 43.396%;
+	margin-right: 1.886%;
+}
+.nine-col .five-col {
+	width: 54.716%;
+	margin-right: 1.886%;
+}
+.nine-col .six-col {
+	width: 66.037%;
+	margin-right: 1.886%;
+}
+.nine-col .seven-col {
+	width: 77.358%;
+	margin-right: 1.886%;
+}
+.nine-col .eight-col {
+	width: 88.679%;
+	margin-right: 1.886%;
+}
+.nine-col .nine-col {
+	width: 100%;
+	margin-right: 0;
+}
+.eight-col .one-col {
+	width: 10.638%;
+	margin-right: 2.127%;
+}
+.eight-col .two-col {
+	width: 23.404%;
+	margin-right: 2.127%;
+}
+.eight-col .three-col {
+	width: 36.17%;
+	margin-right: 2.127%;
+}
+.eight-col .four-col {
+	width: 48.936%;
+	margin-right: 2.127%;
+}
+.eight-col .five-col {
+	width: 61.702%;
+	margin-right: 2.127%;
+}
+.eight-col .six-col {
+	width: 74.468%;
+	margin-right: 2.127%;
+}
+.eight-col .seven-col {
+	width: 87.234%;
+	margin-right: 2.127%;
+}
+.eight-col .eight-col {
+	width: 100%;
+	margin-right: 0;
+}
+.seven-col .one-col {
+	width: 12.195%;
+	margin-right: 2.439%;
+}
+.seven-col .two-col {
+	width: 26.829%;
+	margin-right: 2.439%;
+}
+.seven-col .three-col {
+	width: 41.463%;
+	margin-right: 2.439%;
+}
+.seven-col .four-col {
+	width: 56.097%;
+	margin-right: 2.439%;
+}
+.seven-col .five-col {
+	width: 70.731%;
+	margin-right: 2.439%;
+}
+.seven-col .six-col {
+	width: 85.365%;
+	margin-right: 2.439%;
+}
+.seven-col .seven-col {
+	width: 100%;
+	margin-right: 0;
+}
+.six-col .one-col {
+	width: 14.285%;
+	margin-right: 2.857%;
+}
+.six-col .two-col {
+	width: 31.428%;
+	margin-right: 2.857%;
+}
+.six-col .three-col {
+	width: 48.571%;
+	margin-right: 2.857%;
+}
+.six-col .four-col {
+	width: 65.714%;
+	margin-right: 2.857%;
+}
+.six-col .five-col {
+	width: 82.857%;
+	margin-right: 2.857%;
+}
+.six-col .six-col {
+	width: 100%;
+	margin-right: 0;
+}
+.five-col .one-col {
+	width: 17.241%;
+	margin-right: 3.448%;
+}
+.five-col .two-col {
+	width: 37.931%;
+	margin-right: 3.448%;
+}
+.five-col .three-col {
+	width: 58.62%;
+	margin-right: 3.448%;
+}
+.five-col .four-col {
+	width: 79.31%;
+	margin-right: 3.448%;
+}
+.five-col .five-col {
+	width: 100%;
+	margin-right: 0;
+}
+.four-col .one-col {
+	width: 21.739%;
+	margin-right: 4.347%;
+}
+.four-col .two-col {
+	width: 47.826%;
+	margin-right: 4.347%;
+}
+.four-col .three-col {
+	width: 73.913%;
+	margin-right: 4.347%;
+}
+.four-col .four-col {
+	width: 100%;
+	margin-right: 0;
+}
+.three-col .one-col {
+	width: 29.411%;
+	margin-right: 5.882%;
+}
+.three-col .two-col {
+	width: 64.705%;
+	margin-right: 5.882%;
+}
+.three-col .three-col {
+	width: 100%;
+	margin-right: 0;
+}
+.two-col .one-col {
+	width: 45.454%;
+	margin-right: 9.09%;
+	zoom: 1 !important;
+}
+.two-col .two-col {
+	width: 100%;
+	margin-right: 0;
+}
+.one-col .one-col {
+	width: 100%;
+	margin-right: 0;
+}
+ .sixteen-col .last-col {
+	margin-right: 0;
+}
+.fifteen-col .last-col {
+	margin-right: 0;
+}
+.fourteen-col .last-col {
+	margin-right: 0;
+}
+.thirteen-col .last-col {
+	margin-right: 0;
+}
+.twelve-col .last-col {
+	margin-right: 0;
+}
+.eleven-col .last-col {
+	margin-right: 0;
+}
+.ten-col .last-col {
+	margin-right: 0;
+}
+.nine-col .last-col {
+	margin-right: 0;
+}
+.eight-col .last-col {
+	margin-right: 0;
+}
+.seven-col .last-col {
+	margin-right: 0;
+}
+.six-col .last-col {
+	margin-right: 0;
+}
+.five-col .last-col {
+	margin-right: 0;
+}
+.four-col .last-col {
+	margin-right: 0;
+}
+.three-col .last-col {
+	margin-right: 0;
+}
+.two-col .last-col {
+	margin-right: 0;
+}
+.one-col .last-col {
+	margin-right: 0;
+}
+.clear { /* Useful generic clearing class. */
+	clear: both;
+}
+.last-col {
+	margin-right: 0;
+}

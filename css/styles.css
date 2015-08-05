@@ -1,0 +1,238 @@
+body {
+    color: #222;
+    background-color: #f8f8f8;
+    line-height: 140%;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
+#main-outer-box {
+    /* Contains all other divs for the page. */
+}
+
+#my-header {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+#middle {
+    /* Contains nav and content side-by-side. */
+}
+
+#nav {
+    float: left;
+    width: 220px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+/* Pandoc automatically puts these in the page. */
+#header .author {display: none;}
+#header .date   {display: none;}
+
+#header .title {
+    font-size: 34px;
+}
+
+#TOC {
+    background-color: #e5efdf;
+    border: 1px solid #cedec4;
+}
+
+#content {
+    margin-left: 260px;
+    padding: 20px;
+    width: 960px;
+    border-left: 2px solid #ccc;
+}
+
+caption {
+    font-style: italic;
+    font-size: small;
+    color: #555;
+}
+
+a:link {
+    color: #3A4089;
+}
+
+a:visited {
+    color: #875098;
+}
+
+table {
+    background-color: #eee;
+    padding-left: 2px;
+    border: 2px solid #d4d4d4;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #d4d4d4;
+    padding-right: 4px;
+}
+
+tr, td, th {
+    border: 2px solid #d4d4d4;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+code {
+    background-color: #eee;
+}
+
+pre {
+    line-height: 135%;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding-left: 6px;
+    padding-right: 2px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+blockquote {
+    background-color: #d8deea;
+    border: 1px solid #c6d1e7;
+    border-radius: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+blockquote code, blockquote pre {
+    background-color: #cad2e4;
+    border-style: none;
+}
+
+#footer {
+    clear: both;
+    padding: 10px;
+    font-style: italic;
+    font-size: small;
+    border-top: 2px solid #ccc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+}
+
+h3, h5 {
+    font-style: italic;
+}
+
+
+/**
+* Icons
+*/
+.icon > svg {
+display: inline-block;
+width: 16px;
+height: 16px;
+vertical-align: middle; }
+.icon > svg path {
+fill: #828282; }
+
+.note {
+display: inline-block;
+background: rgba(0, 0, 0, 0.05);
+padding: 20px;
+border-radius: 3px;
+border: 1px solid rgba(0, 0, 0, 0.2);
+margin: 20px 0; }
+/**
+* Site header
+*/
+.site-header {
+border-top: 5px solid #0E1FDC;
+border-bottom: 1px solid #DC660E;
+min-height: 56px;
+position: relative;
+}
+.site-title {
+font-size: 26px;
+line-height: 56px;
+letter-spacing: -1px;
+margin-bottom: 0;
+float: left; 
+}
+.site-title, .site-title:visited {
+color: #424242;
+}
+.site-nav {
+float: right;
+line-height: 56px;
+}
+.site-nav .menu-icon {
+display: none;
+}
+.site-nav .page-link {
+color: #111;
+line-height: 1.5;
+}
+.site-nav .page-link:not(:first-child) {
+margin-left: 20px;
+}
+
+@media screen and (max-width: 800px) {
+.site-nav {
+position: absolute;
+top: 9px;
+right: 30px;
+background-color: #fdfdfd;
+border: 1px solid #e8e8e8;
+border-radius: 5px;
+text-align: right; 
+}
+.site-nav .menu-icon {
+display: block;
+float: right;
+width: 36px;
+height: 26px;
+line-height: 0;
+padding-top: 10px;
+text-align: center; 
+}
+.site-nav .menu-icon > svg {
+width: 18px;
+height: 15px; 
+}
+.site-nav .menu-icon > svg path {
+fill: #424242;
+}
+.site-nav .trigger {
+clear: both;
+display: none;
+}
+.site-nav:hover .trigger {
+display: block;
+padding-bottom: 5px;
+}
+.site-nav .page-link {
+display: block;
+padding: 5px 10px;
+} 
+}
+@media screen and (max-width: 800px) {
+.site-nav .side {
+visibility: hidden;
+display: none;
+max-width: 0px; 
+} 
+}
+@media screen and (min-width: 800px) {
+.site-nav .mobile-menu {
+visibility: hidden;
+display: none;
+max-width: 0px;
+}
+}

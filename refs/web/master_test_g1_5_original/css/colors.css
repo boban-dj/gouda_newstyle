@@ -1,0 +1,52 @@
+/* COLORS BKGD
+================================================== */
+.water{color:#5582d1;}
+.earth{color:#4e3e2c;}
+.air{color:#f1fff7;}
+.fire{ color:#ff8a19;}
+.grass{ color:#00B300;}
+.salmon {background:#FA8072;}
+.opaque {background:#809F8F;} /* navigation bar fixed */
+.important {color: red;}
+
+/* COLORS TYPE
+================================================== */
+.wine{color:#4a040a;}
+.beer{color:#F0C030;}
+.caffe{color:#473523;}
+.caffe-cream{color:#b68d3d;}
+.espresso{color:#2c1901;}
+.caramel{color:#ab671f;}
+.chocolate{color:#290200;}
+.black-pepper{color:#444334;}
+.pepper-lite{color:#8d8a72;}
+.lipstick{color:#c20c0c;}
+
+
+/* HIGHLIGHTS AND SHADOWS TEXT */
+
+.shadw{text-shadow:1px 1px #800000;font-weight:bold;}
+.shadb{text-shadow:1px 1px #350000;font-weight:bold;}
+.vintage{text-shadow: 1px 1px 0px #80ffff, 1px 1px 0px #10b80c;}
+.neon {text-shadow: 1px 1px 1px #fff, 0 0 0px #fff, 0 0 1px #fff, 1px 1px 0px #ff00de;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
