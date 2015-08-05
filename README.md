@@ -1,8 +1,18 @@
-Gouda newstyle script.
+## Gouda newstyle script.
 
 This is a static html generator from markdown.
-Dependencies: pandoc, markdown
-Usage: make 2 or more .md files in a folder, every file must start 1st line: % First line
-all other the gouda.pl script will ask for.
 
-# gouda_newstyle
+Dependencies: pandoc, markdown, perl,
+used perlmodules:
+		use Modern::Perl;
+		use autodie qw/:all/;
+		use File::Slurp;
+		use List::Compare;
+
+Usage: make 3 or more .md files in a folder
+Every file must start 1st line: % First line
+All other important things the gouda.pl script will ask for.
+
+It generates style.css, toc.conf (table of content)
+Added mobile navigation menu with toc support.
+
